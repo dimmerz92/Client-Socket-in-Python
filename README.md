@@ -8,8 +8,8 @@
 
 ## Dependencies
 - Bash shell
-- GCC compiler
-- C headers: stdio.h, stdlib.h, netdb.h, unistd.h, pthread.h, sys/types.h, sys/socket.h, and netinet/in.h
+- Python3
+- Python modules: sys, socket
 
 ## Introduction
 This is a submission for COSC540 - Computer Networks and Information Security at The University of New England (UNE). The submission contains one program, the client, and one shell script to run the program. The client is written in Python, a different language to the original Assessment 2 which was written in C.
