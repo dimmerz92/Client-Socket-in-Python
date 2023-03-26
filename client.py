@@ -11,7 +11,6 @@ def error(msg):
 MAX_BUFFER = 256
 
 ### VARIABLES
-connected = True
 buffer = ""
 
 ### SERVER INFO
@@ -37,7 +36,7 @@ except OSError:
     error("ERROR connecting")
 
 ### COMMUNICATE WITH SERVER
-while(connected):
+while(1):
     ## SEND MESSAGE
     # get user input
     buffer = input()
